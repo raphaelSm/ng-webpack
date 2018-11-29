@@ -1,0 +1,42 @@
+/* styles in src/style directory are applied to the whole page */
+
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+$buisnessHeader:400px;
+
+.business-header {
+  /*height: 50vh;*/
+  min-height: $buisnessHeader;
+  background: url('../public/img/slider.jpg') center center no-repeat scroll;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;*/
+   background-size: 80% 80%; 
+}
+
+.card {
+  height: 100%;
+}
+
+pre {
+    box-sizing: border-box;
+    font-size: 0.8em;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+}
